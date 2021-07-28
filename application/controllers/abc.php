@@ -17,6 +17,14 @@
 			$c=$a+$b;
 			echo "SUM=".$c;
 		}
+
+		function sum1()
+		{
+			$this->load->model("sum_model");// load the model
+			$s['d']=$this->sum_model->do_sum();// call a function from that model
+			$this->load->view("sum_view");
+			$this->load->view("result_view",$s);
+		}
 	}
 
 ?>

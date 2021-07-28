@@ -4,7 +4,7 @@
 	<title></title>
 </head>
 <body>
-	<form method="post">
+	<form method="post" action="http://localhost/nsti/advanced/nsti/index.php/abc/sum1">
 		1st no.:
 		<input type="text" name="t1">
 		<br>
