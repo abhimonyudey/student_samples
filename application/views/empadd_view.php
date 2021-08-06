@@ -19,5 +19,8 @@
 		<br>
 		<input type="submit" value="ADD">
 	</form>
+	<a href="<?php echo base_url(); ?>index.php/emp_controller/empshowall">SHOW ALL</a>
+	<br>
+	<a href="<?php echo base_url(); ?>index.php/emp_controller/empsearch">UPDATE</a>
 </body>
 </html>
